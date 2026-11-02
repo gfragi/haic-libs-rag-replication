@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: >-
+  If you use these materials, please cite them using the metadata below, and
+  cite the haic-libs library they rely on (see references).
+type: software
+title: "haic-libs RAG demonstration and replication materials"
+abstract: >-
+  An instrumented Retrieval-Augmented Generation (RAG) chatbot, the question
+  sets and decisions artifacts of its evaluation sessions, and scripts that
+  recompute the instrumentation-overhead and HAIC-metric tables of the
+  haic-libs paper, using haic-metrics 0.3.0 and haic-logging 0.1.0 from PyPI.
+authors:
+  - given-names: George
+    family-names: Fragiadakis
+    orcid: "https://orcid.org/0000-0002-3418-6443"
+    affiliation: >-
+      Department of Informatics and Telematics, Harokopio University of Athens
+license: MIT
+repository-code: "https://github.com/gfragi/haic-libs-rag-replication"
+keywords:
+  - human-AI collaboration
+  - evaluation
+  - retrieval-augmented generation
+  - reproducibility
+references:
+  - type: software
+    title: "haic-libs: Logging and Metrics for Human–AI Collaboration Evaluation"
+    authors:
+      - given-names: George
+        family-names: Fragiadakis
+        orcid: "https://orcid.org/0000-0002-3418-6443"
+    version: 0.3.0
+    doi: 10.5281/zenodo.23896317
+    repository-code: "https://github.com/gfragi/haic-libs"
+  - type: article
+    title: "Evaluating Human-AI Collaboration: A Review and Methodological Framework"
+    authors:
+      - given-names: George
+        family-names: Fragiadakis
+      - given-names: Christos
+        family-names: Diou
+      - given-names: George
+        family-names: Kousiouris
+      - given-names: Mara
+        family-names: Nikolaidou
+    year: 2025
+    url: "https://arxiv.org/abs/2407.19098"

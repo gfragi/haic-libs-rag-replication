@@ -1,0 +1,8 @@
+# Downloaded knowledge source (not redistributed)
+data/
+# Interactive chatbot logs
+logs/
+# Sessions stopped early
+sessions/*.partial.*
+.venv/
+__pycache__/

@@ -1,0 +1,37 @@
+{
+  "_note": "Question sets of the three RAG demonstration sessions in the paper (Section 6.2), taken verbatim from the original session artifacts (5 April 2026). Sessions 2 and 3 use the same 10 questions. The original session 3 also logged an 11th turn whose query was the single character 'y' (feedback typed at the question prompt); it is not a question and is omitted here.",
+  "source": "arXiv:2407.19098v2",
+  "sessions": {
+    "session_1": [
+      "What is the difference between model-centric and collaboration-centric evaluation?",
+      "How is the Trust metric operationalized in the framework?",
+      "What are the limitations of using behavioral proxies for measuring cognitive load?",
+      "Can the framework be applied to non-decision-support systems like conversational agents?",
+      "Summarize the key differences between the core and extended metric profiles"
+    ],
+    "session_2": [
+      "What problem does the paper address in Human-AI Collaboration evaluation?",
+      "What is interaction frequency and how is it measured?",
+      "How does the framework define trust in a Human-AI system?",
+      "What is effort loss and what does it indicate about collaboration quality?",
+      "What is the difference between core and extended metrics in the framework?",
+      "How does adaptability differ from model accuracy as an evaluation dimension?",
+      "What role does human-AI similarity play in assessing collaboration?",
+      "What are the main limitations acknowledged by the authors?",
+      "Can this framework evaluate systems where the AI makes no explicit recommendations?",
+      "How would you apply this framework to evaluate a voice assistant used by elderly users?"
+    ],
+    "session_3": [
+      "What problem does the paper address in Human-AI Collaboration evaluation?",
+      "What is interaction frequency and how is it measured?",
+      "How does the framework define trust in a Human-AI system?",
+      "What is effort loss and what does it indicate about collaboration quality?",
+      "What is the difference between core and extended metrics in the framework?",
+      "How does adaptability differ from model accuracy as an evaluation dimension?",
+      "What role does human-AI similarity play in assessing collaboration?",
+      "What are the main limitations acknowledged by the authors?",
+      "Can this framework evaluate systems where the AI makes no explicit recommendations?",
+      "How would you apply this framework to evaluate a voice assistant used by elderly users?"
+    ]
+  }
+}
