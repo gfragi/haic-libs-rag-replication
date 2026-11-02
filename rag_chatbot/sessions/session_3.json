@@ -1,0 +1,377 @@
+{
+  "artifact_schema": "haic.decisions_artifact.v1",
+  "schema_version": "haic.decisions.v1",
+  "session_id": "7edbc75c-5a71-4f4b-9b13-081ec09de26f",
+  "run_id": "bbc608dc-34ac-4c59-a97a-975da2e7315c",
+  "meta": {
+    "pilot_tag": "rag-demo",
+    "application": {
+      "name": "haic_rag",
+      "version": "0.1.0",
+      "mode": null
+    },
+    "ai_system": {
+      "model_name": "llama3.2",
+      "model_type": "llm",
+      "model_version": null,
+      "inference_config": {}
+    },
+    "task": {
+      "name": "unknown_task",
+      "domain": "unknown_domain",
+      "unit_of_work": "item"
+    },
+    "human": {
+      "actor_id": null,
+      "role": "human",
+      "expertise": "unknown"
+    },
+    "infrastructure": {
+      "hostname": "deco-M4R-001",
+      "os": "Darwin 25.6.0",
+      "cpu_model_mhz": 4,
+      "cpu_count": 10,
+      "ram_total_gb": 16.0,
+      "disk_total_gb": 460.0
+    },
+    "timestamps": {
+      "start_time": 1793653902.89328,
+      "end_time": 1793654084.161818
+    }
+  },
+  "decisions": [
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 1,
+      "t": 1793653921.2722719,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_1",
+      "duration_s": 18.37902483297512,
+      "latency_ms": null,
+      "correct": null,
+      "payload": {
+        "query": "What problem does the paper address in Human-AI Collaboration evaluation?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 2,
+      "t": 1793653923.141868,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_1",
+      "duration_s": null,
+      "latency_ms": 1541.933041997254,
+      "correct": null,
+      "payload": {
+        "answer": "The paper addresses the challenge of evaluating Human-AI Collaboration (HAIC) due to the complex interactions between humans and AI systems. Specifically, it highlights that evaluating HAIC remains a significant challenge because current approaches often focus on specific sectors or AI applications, rather than adapting to the mode of collaboration itself.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 3,
+      "t": 1793653930.277738,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_2",
+      "duration_s": 2.5841157499235123,
+      "latency_ms": null,
+      "correct": true,
+      "payload": {
+        "query": "What is interaction frequency and how is it measured?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 4,
+      "t": 1793653932.218754,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_2",
+      "duration_s": null,
+      "latency_ms": 1684.3909579329193,
+      "correct": true,
+      "payload": {
+        "answer": "Unfortunately, the provided context does not mention \"Interaction Frequency\" specifically. However, it does mention \"Frequency of Feedback\", which is related to how often users provide feedback to the system.\n\nAccording to the context, \"Frequency of Feedback\" is measured using a metric that helps developers assess engagement levels and identify areas for improvement.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 5,
+      "t": 1793653952.809338,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_3",
+      "duration_s": 1.2798502501100302,
+      "latency_ms": null,
+      "correct": false,
+      "payload": {
+        "query": "How does the framework define trust in a Human-AI system?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 6,
+      "t": 1793653957.7416,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_3",
+      "duration_s": null,
+      "latency_ms": 4646.602541906759,
+      "correct": false,
+      "payload": {
+        "answer": "The context does not provide a clear definition of how the framework defines trust in a Human-AI system. However, it does mention that trust calibration between humans and AI agents is an important aspect of maintaining trust, and that insufficient trust may result in underutilization. It also mentions the need for evaluation methods that incorporate trust, interpretability, and adaptability in Human-AI collaboration models.\n\nAdditionally, some of the references cited in the context, such as Yue et al. (2023) and M. Dikmen and C. Burns (2022), examine how different human-AI collaboration models influence user perceptions and adoption, and how trust is affected by these interactions.\n\nOverall, while the context does not provide a clear definition of trust in a Human-AI system, it suggests that trust is an important aspect of Human-AI collaboration and that it is influenced by various factors, including user perceptions, collaboration models, and evaluation methods.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 7,
+      "t": 1793653962.374308,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_4",
+      "duration_s": 1.4500319168437272,
+      "latency_ms": null,
+      "correct": true,
+      "payload": {
+        "query": "What is effort loss and what does it indicate about collaboration quality?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 8,
+      "t": 1793653968.089924,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_4",
+      "duration_s": null,
+      "latency_ms": 5459.240749944001,
+      "correct": true,
+      "payload": {
+        "answer": "The context doesn't explicitly define \"effort loss\". However, I found a possible connection in the provided information.\n\nIn the context of Human-AI Collaboration (HAIC), \"effort loss\" is likely an indicator of collaboration quality, specifically in terms of task allocation and interaction quality.\n\nEffort loss refers to the difference between the effort required by a human and the effort required by an AI system to complete a task. It is often used to evaluate the effectiveness of task allocation in HAIC, where humans and AI systems work together on a task.\n\nIn this context, effort loss is likely a metric that assesses how well the system is allocating tasks to minimize the difference between human and AI effort. A smaller effort loss indicates that the system is doing a better job of allocating tasks, while a larger effort loss may indicate that the system is struggling to optimize task allocation, which can negatively impact collaboration quality.\n\nHowever, I must clarify that \"effort loss\" is not explicitly defined or described in the provided context. This answer is an inference based on general knowledge and may not be a direct answer to the question.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 9,
+      "t": 1793653985.216366,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_5",
+      "duration_s": 2.6497262089978904,
+      "latency_ms": null,
+      "correct": false,
+      "payload": {
+        "query": "What is the difference between core and extended metrics in the framework?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 10,
+      "t": 1793653986.97088,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_5",
+      "duration_s": null,
+      "latency_ms": 1449.9122500419617,
+      "correct": false,
+      "payload": {
+        "answer": "Unfortunately, the provided context does not explicitly define what core metrics and extended metrics are in the framework. It only mentions \"associated metrics\" in the Goals factor, but does not provide further information on what these metrics are or how they are related to core and extended metrics.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 11,
+      "t": 1793654019.056154,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_6",
+      "duration_s": 2.6067990828305483,
+      "latency_ms": null,
+      "correct": true,
+      "payload": {
+        "query": "How does adaptability differ from model accuracy as an evaluation dimension?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 12,
+      "t": 1793654023.238202,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_6",
+      "duration_s": null,
+      "latency_ms": 3894.4443750660866,
+      "correct": true,
+      "payload": {
+        "answer": "The context does not provide a clear distinction between adaptability and model accuracy. However, it does provide some related information.\n\nAdaptability is defined as \"AI's ability to adapt query strategy and learning based on human input\" and is evaluated through measures such as the Adaptability Score, which combines flexibility and responsiveness. \n\nModel accuracy, on the other hand, is related to the \"Performance Impact\" or \"Performance Post-Feedback\" metric, which is evaluated through improvements in accuracy, precision, or other relevant metrics. \n\nIt can be inferred that while both adaptability and model accuracy are related to the AI's performance, they seem to be distinct evaluation dimensions. Adaptability focuses on the AI's ability to adapt and respond to changes, whereas model accuracy focuses on the AI's ability to produce accurate outputs.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 13,
+      "t": 1793654030.813937,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_7",
+      "duration_s": 2.505376667017117,
+      "latency_ms": null,
+      "correct": null,
+      "payload": {
+        "query": "What role does human-AI similarity play in assessing collaboration?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 14,
+      "t": 1793654034.88977,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_7",
+      "duration_s": null,
+      "latency_ms": 3749.911708990112,
+      "correct": null,
+      "payload": {
+        "answer": "The provided context does not explicitly discuss the role of human-AI similarity in assessing collaboration. However, I can make an educated inference based on the information provided.\n\nThe context mentions that human-AI collaboration (HAIC) involves a deeper integration of human intuition and AI capabilities, and that evaluating this synergy requires novel metrics that capture the mutual influences between collaborators. This suggests that understanding how humans and AI systems work together effectively is crucial for assessing collaboration.\n\nHuman-AI similarity could be a factor in assessing collaboration, as it may influence how well humans and AI systems work together. However, the context does not provide enough information to determine the specific role or importance of human-AI similarity in this context.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 15,
+      "t": 1793654044.916064,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_8",
+      "duration_s": 1.9251274592243135,
+      "latency_ms": null,
+      "correct": false,
+      "payload": {
+        "query": "What are the main limitations acknowledged by the authors?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 16,
+      "t": 1793654050.10285,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_8",
+      "duration_s": null,
+      "latency_ms": 4840.574749978259,
+      "correct": false,
+      "payload": {
+        "answer": "The text does not explicitly mention the main limitations acknowledged by the authors. However, it mentions that studies like V ollmuth et al. (2023) [35] and Van Leeuwen et al. (2022) [36] use metrics like sensitivity, specificity, but also acknowledge that the high-stakes nature of medical decisions require additional qualitative approaches like interviews and focus groups.\n\nIt also mentions that studies like Timmons et al. (2023) [37] identify biases, and Reddy et al. (2021) [42] emphasize the need for a balanced evaluation of AI's influence on creativity and collaboration.\n\nAdditionally, it mentions that studies by Rezwana et al. (2023) [40] and Verheijden & Funk (2023) [51] use qualitative methods like interviews and case studies to assess AI's influence on creativity and collaboration, but it does not explicitly state what limitations they acknowledge.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 17,
+      "t": 1793654063.5105548,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_9",
+      "duration_s": 4.771585749927908,
+      "latency_ms": null,
+      "correct": false,
+      "payload": {
+        "query": "Can this framework evaluate systems where the AI makes no explicit recommendations?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 18,
+      "t": 1793654064.487953,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_9",
+      "duration_s": null,
+      "latency_ms": 659.9504579789937,
+      "correct": false,
+      "payload": {
+        "answer": "The text does not provide enough information to determine whether the framework can evaluate systems where the AI makes no explicit recommendations.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 19,
+      "t": 1793654068.539263,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_10",
+      "duration_s": 1.8894881659653038,
+      "latency_ms": null,
+      "correct": false,
+      "payload": {
+        "query": "How would you apply this framework to evaluate a voice assistant used by elderly users?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 20,
+      "t": 1793654075.9712682,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_10",
+      "duration_s": null,
+      "latency_ms": 7251.801792066544,
+      "correct": false,
+      "payload": {
+        "answer": "Unfortunately, the context provided does not provide enough information to answer this question fully. The text mentions the need for a framework to evaluate Human-AI Interaction (HAIC) in various domains, but it does not specifically address how to apply the framework to a voice assistant used by elderly users.\n\nHowever, I can make some educated guesses based on the context. The framework might involve evaluating the voice assistant's performance in terms of:\n\n* Technical aspects, such as:\n\t+ Diagnostics accuracy (e.g., identifying medical conditions or symptoms)\n\t+ Natural language understanding (e.g., understanding voice commands or responses)\n\t+ Voice recognition accuracy\n* Human-centered aspects, such as:\n\t+ User experience (e.g., ease of use, user satisfaction)\n\t+ Emotional intelligence (e.g., empathy, understanding of user emotions)\n\t+ Adaptability to user needs (e.g., adjusting to user preferences, learning user habits)\n* Interpersonal aspects, such as:\n\t+ Collaboration and communication between humans and AI (e.g., user assistance, feedback mechanisms)\n\t+ Trust and reliability of the AI system\n\nTo evaluate a voice assistant used by elderly users, the framework might also consider factors specific to this population, such as:\n\n* Cognitive abilities and memory loss\n* Sensory impairments (e.g., hearing loss, visual impairment)\n* Communication barriers (e.g., language or cultural differences)\n* Social isolation and loneliness\n\nWithout more information, it's difficult to provide a more detailed answer.",
+        "num_chunks_used": 4
+      }
+    }
+  ],
+  "events": [
+    {
+      "schema_version": "haic.events.v1",
+      "event_id": "6fd4ad32-f377-4b44-b5b9-017b1aca3f90",
+      "event_type": "session_start",
+      "t": 1793653902.893284,
+      "seq": 1,
+      "actor": "system",
+      "context": {
+        "run_id": "bbc608dc-34ac-4c59-a97a-975da2e7315c",
+        "session_id": "7edbc75c-5a71-4f4b-9b13-081ec09de26f",
+        "pilot_tag": "rag-demo",
+        "app_version": "0.1.0",
+        "app_mode": null,
+        "model_name": "llama3.2",
+        "model_version": null
+      },
+      "payload": {
+        "pilot_tag": "rag-demo",
+        "app_mode": null
+      }
+    },
+    {
+      "schema_version": "haic.events.v1",
+      "event_id": "a6b577c7-b5f7-4798-bd38-bf3dbc64483a",
+      "event_type": "session_end",
+      "t": 1793654084.161896,
+      "seq": 2,
+      "actor": "system",
+      "context": {
+        "run_id": "bbc608dc-34ac-4c59-a97a-975da2e7315c",
+        "session_id": "7edbc75c-5a71-4f4b-9b13-081ec09de26f",
+        "pilot_tag": "rag-demo",
+        "app_version": "0.1.0",
+        "app_mode": null,
+        "model_name": "llama3.2",
+        "model_version": null
+      },
+      "payload": {
+        "session_end_time": 1793654084.161818
+      }
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "artifact_schema": "haic.decisions_artifact.v1",
+  "schema_version": "haic.decisions.v1",
+  "session_id": "7a3aa74e-a133-4378-88da-ab76af90570c",
+  "run_id": "24c85c8d-91dc-47ba-83d3-26305a923df4",
+  "meta": {
+    "pilot_tag": "rag-demo",
+    "application": {
+      "name": "haic_rag",
+      "version": "0.1.0",
+      "mode": null
+    },
+    "ai_system": {
+      "model_name": "llama3.2",
+      "model_type": "llm",
+      "model_version": null,
+      "inference_config": {}
+    },
+    "task": {
+      "name": "unknown_task",
+      "domain": "unknown_domain",
+      "unit_of_work": "item"
+    },
+    "human": {
+      "actor_id": null,
+      "role": "human",
+      "expertise": "unknown"
+    },
+    "infrastructure": {
+      "hostname": "deco-M4R-001",
+      "os": "Darwin 25.6.0",
+      "cpu_model_mhz": 4,
+      "cpu_count": 10,
+      "ram_total_gb": 16.0,
+      "disk_total_gb": 460.0
+    },
+    "timestamps": {
+      "start_time": 1793653182.1118112,
+      "end_time": 1793653591.978657
+    }
+  },
+  "decisions": [
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 1,
+      "t": 1793653303.076267,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_1",
+      "duration_s": 120.96603808389045,
+      "latency_ms": null,
+      "correct": false,
+      "payload": {
+        "query": "What is the difference between model-centric and collaboration-centric evaluation?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 2,
+      "t": 1793653308.171181,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_1",
+      "duration_s": null,
+      "latency_ms": 4752.2354170214385,
+      "correct": false,
+      "payload": {
+        "answer": "The provided context does not explicitly define \"model-centric\" evaluation. However, it does mention \"AI-Centric Collaboration\" which focuses on AI autonomy, emphasizing efficiency and uncertainty handling metrics. This suggests that AI-Centric Collaboration is an example of an evaluation approach that prioritizes AI's performance and efficiency.\n\nIn contrast, it does not provide explicit information on what \"model-centric\" evaluation entails.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 3,
+      "t": 1793653417.531326,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_2",
+      "duration_s": 3.579541041981429,
+      "latency_ms": null,
+      "correct": false,
+      "payload": {
+        "query": "How is the Trust metric operationalized in the framework?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 4,
+      "t": 1793653420.2004118,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_2",
+      "duration_s": null,
+      "latency_ms": 2386.9971667882055,
+      "correct": false,
+      "payload": {
+        "answer": "Unfortunately, the context does not provide specific information on how the Trust metric is operationalized in the framework. It only mentions that the Trust Score Assessesses user trust in the AI system through surveys and trust scales, but it does not provide further details on the methodology or specific operationalization of the Trust metric.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 5,
+      "t": 1793653432.624046,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_3",
+      "duration_s": 5.762379749910906,
+      "latency_ms": null,
+      "correct": true,
+      "payload": {
+        "query": "What are the limitations of using behavioral proxies for measuring cognitive load?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 6,
+      "t": 1793653435.504409,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_3",
+      "duration_s": null,
+      "latency_ms": 2593.259124783799,
+      "correct": true,
+      "payload": {
+        "answer": "The text does not explicitly mention the limitations of using behavioral proxies for measuring cognitive load. However, it does mention that behavioral factors involve interdisciplinary approaches from psychology, sociology, and cognitive science, which require complex and varied methodologies.\n\nIt does mention that investigating behavioral factors, including those related to cognitive load, involves excluding behavioral aspects due to methodological and scope constraints.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 7,
+      "t": 1793653440.575404,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_4",
+      "duration_s": 1.6757733330596238,
+      "latency_ms": null,
+      "correct": true,
+      "payload": {
+        "query": "Can the framework be applied to non-decision-support systems like conversational agents?"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 8,
+      "t": 1793653445.437549,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_4",
+      "duration_s": null,
+      "latency_ms": 4640.876790974289,
+      "correct": true,
+      "payload": {
+        "answer": "Based on the provided context, it seems that the framework is primarily focused on decision-support systems, such as radiologists assisting in disease detection. However, the concepts of effective communication, query and response mechanisms, and feedback mechanisms are also relevant to other applications, including conversational agents.\n\nThe framework's emphasis on adapting to human expectations, clarifying communication, and refining AI responses through feedback suggests that it could be applicable to non-decision-support systems like conversational agents. These agents must interpret user queries, provide helpful responses, and continuously learn from user interactions.\n\nWhile the context doesn't explicitly mention conversational agents, the underlying principles of effective human-AI collaboration, communication, and feedback seem transferable to these systems.",
+        "num_chunks_used": 4
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 9,
+      "t": 1793653454.79441,
+      "actor_type": "human",
+      "action": "query",
+      "object_id": "turn_5",
+      "duration_s": 2.7566599999554455,
+      "latency_ms": null,
+      "correct": true,
+      "payload": {
+        "query": "Summarize the key differences between the core and extended metric profiles"
+      }
+    },
+    {
+      "schema_version": "haic.decisions.v1",
+      "seq": 10,
+      "t": 1793653458.5109272,
+      "actor_type": "ai",
+      "action": "respond",
+      "object_id": "turn_5",
+      "duration_s": null,
+      "latency_ms": 3446.5574577916414,
+      "correct": true,
+      "payload": {
+        "answer": "Unfortunately, the provided context does not explicitly mention \"core and extended metric profiles\". The text discusses various evaluation approaches, mixed-methods evaluations, and the importance of considering qualitative insights, but it does not mention metric profiles.\n\nHowever, I can try to infer that the text is discussing different types of evaluation approaches or frameworks. If that's the case, I'd need more context to accurately summarize the key differences between them.\n\nCould you please provide more information or clarify what you mean by \"core and extended metric profiles\"? I'll do my best to help.",
+        "num_chunks_used": 4
+      }
+    }
+  ],
+  "events": [
+    {
+      "schema_version": "haic.events.v1",
+      "event_id": "60a81a16-855d-4da0-aeb0-6e1779a10aaf",
+      "event_type": "session_start",
+      "t": 1793653182.111813,
+      "seq": 1,
+      "actor": "system",
+      "context": {
+        "run_id": "24c85c8d-91dc-47ba-83d3-26305a923df4",
+        "session_id": "7a3aa74e-a133-4378-88da-ab76af90570c",
+        "pilot_tag": "rag-demo",
+        "app_version": "0.1.0",
+        "app_mode": null,
+        "model_name": "llama3.2",
+        "model_version": null
+      },
+      "payload": {
+        "pilot_tag": "rag-demo",
+        "app_mode": null
+      }
+    },
+    {
+      "schema_version": "haic.events.v1",
+      "event_id": "68e769e5-982b-44e2-971a-e076162e8137",
+      "event_type": "session_end",
+      "t": 1793653591.9787352,
+      "seq": 2,
+      "actor": "system",
+      "context": {
+        "run_id": "24c85c8d-91dc-47ba-83d3-26305a923df4",
+        "session_id": "7a3aa74e-a133-4378-88da-ab76af90570c",
+        "pilot_tag": "rag-demo",
+        "app_version": "0.1.0",
+        "app_mode": null,
+        "model_name": "llama3.2",
+        "model_version": null
+      },
+      "payload": {
+        "session_end_time": 1793653591.978657
+      }
+    }
+  ]
+}
