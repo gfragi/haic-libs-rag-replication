@@ -1,5 +1,7 @@
 # haic-libs RAG demonstration and replication materials
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23911785.svg)](https://doi.org/10.5281/zenodo.23911785)
+
 Material that reproduces the demonstration results of the
 [haic-libs](https://github.com/gfragi/haic-libs) paper: an instrumented
 Retrieval-Augmented Generation (RAG) chatbot, the question sets and session
@@ -39,6 +41,8 @@ python make_table6.py                                   # Table 6 from sessions/
 Please cite the library and, for these materials, this repository (see
 [`CITATION.cff`](CITATION.cff)):
 
+- These materials: [10.5281/zenodo.23911785](https://doi.org/10.5281/zenodo.23911785)
+  (all versions; v1.0.0 is [10.5281/zenodo.23911786](https://doi.org/10.5281/zenodo.23911786))
 - haic-libs: [10.5281/zenodo.21197960](https://doi.org/10.5281/zenodo.21197960)
   (all versions; v0.3.0 is [10.5281/zenodo.23896317](https://doi.org/10.5281/zenodo.23896317))
 

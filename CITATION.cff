@@ -15,6 +15,16 @@ authors:
     orcid: "https://orcid.org/0000-0002-3418-6443"
     affiliation: >-
       Department of Informatics and Telematics, Harokopio University of Athens
+version: 1.0.0
+date-released: "2026-11-02"
+doi: 10.5281/zenodo.23911785
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23911785
+    description: Concept DOI (all versions; resolves to the latest release)
+  - type: doi
+    value: 10.5281/zenodo.23911786
+    description: Version DOI for v1.0.0
 license: MIT
 repository-code: "https://github.com/gfragi/haic-libs-rag-replication"
 keywords:
